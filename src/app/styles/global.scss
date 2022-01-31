@@ -1,16 +1,14 @@
 :root {
-  --highlight: #e20e8d;
   --background: #f1f1f1;
+  --cardFooter: rgba(241, 241, 241, 0.5);
   --divider: #ebebeb;
-  --shadow: #333333;
-  --white: #eeeeee;
+  --shadow: rgba(51, 51, 51, 0.1);
+  --white: #fff;
   --blue: #69a3ff;
   --orange: #ff9632;
   --red: #ed1946;
-  --container: 100rem;
-  --small: 1.5rem;
-  --medium: 3rem;
-  --large: 5rem;
+  --gray: #b4b4b4;
+  --darkGray: #737c84;
 }
 
 * {
@@ -35,7 +33,7 @@ body {
 body,
 input,
 button {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Helvetica', serif;
 }
 
 h1,
