@@ -1,0 +1,12 @@
+.loading {
+  height: calc(100% - 4.3rem);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+
+  img {
+    height: 5rem;
+  }
+}
