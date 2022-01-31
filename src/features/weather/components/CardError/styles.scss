@@ -1,0 +1,30 @@
+section {
+  height: calc(100% - 4.3rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    padding-bottom: 2rem;
+    color: var(--red);
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+
+  button {
+    background-color: var(--white);
+    border: 0.2rem solid var(--darkGray);
+    border-radius: 2rem;
+    padding: 1rem 1.5rem;
+    color: var(--darkGray);
+    font-size: 1.6rem;
+    transition: background-color 0.8s;
+
+    &:hover {
+      background-color: var(--gray);
+      color: var(--white);
+      border-color: var(--gray);
+    }
+  }
+}
