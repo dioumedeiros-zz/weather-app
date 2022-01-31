@@ -1,0 +1,12 @@
+.container-detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  text-align: center;
+  color: var(--gray);
+
+  span {
+    font-size: 2.1rem;
+    color: var(--darkGray);
+  }
+}
