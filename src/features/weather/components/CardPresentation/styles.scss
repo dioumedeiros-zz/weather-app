@@ -1,0 +1,56 @@
+.card {
+  height: 24rem;
+  width: 23rem;
+  background-color: var(--white);
+  border: 0.1rem solid;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1rem var(--shadow);
+}
+
+.card__title {
+  text-align: center;
+
+  h1 {
+    color: var(--darkGray);
+  }
+}
+
+.card__divider {
+  border: 0.1rem solid var(--divider);
+}
+
+.card__degrees {
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 10rem;
+  color: var(--orange);
+}
+
+.card__degrees-cold {
+  color: var(--blue);
+}
+
+.card__degrees-hell {
+  color: var(--red);
+}
+
+footer {
+  background-color: var(--cardFooter);
+  padding: 1.5rem 0;
+  color: var(--gray);
+  text-align: center;
+}
+
+.card-detail {
+  height: 30rem;
+
+  p {
+    padding: 1rem 0;
+  }
+}
+
+@media (max-width: 790px) {
+  .card {
+    margin: 2rem auto;
+  }
+}
